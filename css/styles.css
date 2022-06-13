@@ -112,6 +112,7 @@ padding-right: 15px;
   color: var(--first-text-color);
 }
 .item:hover .header-icon,
+.item:focus .header-icon,
 .item:hover .header-contact,
 .item:focus .header-contact {
   fill: var(--accent-color);
@@ -191,7 +192,8 @@ padding-right: 15px;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
 }
-.social-btn:hover {
+.social-btn:hover,
+.social-btn:focus {
   background-color: #2196f3;
 }
 .social-icon {
@@ -273,7 +275,8 @@ padding-right: 15px;
   background-color: #f5f4fa;
 }
 
-.peculiarities-btn:hover {
+.peculiarities-btn:hover,
+.peculiarities-btn:focus {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -379,7 +382,8 @@ padding-right: 15px;
   background-color: #fff;
 }
 
-.team-btn:hover {
+.team-btn:hover,
+.team-btn:focus {
   color: #fff;
   background-color: #2196f3;
 }
@@ -415,7 +419,8 @@ padding-right: 15px;
   border-radius: 4px;
   background-color: #fff;
 }
-.clients-btn:hover {
+.clients-btn:hover,
+.clients-btn:focus {
   color: #2196F3;
   border: 1px solid #2196F3;
 }
