@@ -46,6 +46,9 @@ padding-right: 15px;
   align-items: center;
   display: flex;
 }
+.border {
+  border: 1px solid #ECECEC;
+}
 .header-nav {
   align-items: center;
   display: flex;
